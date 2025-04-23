@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonte Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>FP SELLECTION</title>
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Carros</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="list">
+            <div class="item active">
+                <div class="car-img">
+                    <img src="./img/2.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="information">Único Dono</p>
+                    <h2>FERRARI</h2>
+                    <p class="description">
+                        Com seu design aerodinâmico e acabamento impecável, esta Ferrari vermelha é um verdadeiro ícone do automobilismo. Equipada com um motor V8 de alta performance, ela entrega emoção e velocidade em cada acelerada. Ideal para quem busca exclusividade, luxo e uma experiência de condução inesquecível.
+                    </p>
+                    <button class="informacao">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="./img/porshe.jpg" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="information">Único Dono</p>
+                    <h2> Porsche 911 Turbo</h2>
+                    <p class="description">
+                        Sofisticado e poderoso, o Porsche 911 Turbo cinza reúne elegância e desempenho em um só modelo. Seu motor biturbo garante uma aceleração impressionante, enquanto o interior refinado oferece conforto e tecnologia de ponta. Perfeito para quem valoriza tradição, inovação e dirigibilidade superior.
+                    </p>
+                    <button class="informacao">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="./img/lamborguini.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="information">Único Dono</p>
+                    <h2>Lamborghini</h2>
+                    <p class="description">
+                        Com linhas agressivas e pintura azul vibrante, esta Lamborghini é puro magnetismo nas ruas. Seu motor V10 entrega potência brutal, enquanto o design interior alia esportividade e luxo. Um superesportivo para quem gosta de viver intensamente e não passa despercebido.
+                    </p>
+                    <button class="informacao">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><img src="./img/arrow.png" alt="seta esquerda"></button>
+            <button id="next"><img src="./img/arrow.png" alt="seta direita"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">01</div> <!-- Aqui foi corrigido -->
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
